@@ -1,0 +1,6 @@
+@each $color in black, white , grey {
+	.font-#{$color}{
+	color:#{$color};
+	background-color:transparent;
+    }
+}
