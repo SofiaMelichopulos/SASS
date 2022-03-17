@@ -1,9 +1,11 @@
+$logo: 50%; 
+
 .carousel {
   position: relative;
 }
 
 .navbar-brand img {
-    width: 55%
+   width: $logo ;
 } 
 
 
