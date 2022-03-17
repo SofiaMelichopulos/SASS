@@ -11,6 +11,9 @@ h3 {
 h1 {
   display: none; }
 
+.titulo3 {
+  display: none; }
+
 .footer {
   display: flex;
   justify-content: flex-end;
