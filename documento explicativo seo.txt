@@ -1,0 +1,15 @@
+
+En el archivo index.html sumé el SEO con las siguientes características:
+
+Descripción:
+ mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “sitio con contenido de pasteleria japonesas".
+
+Palabras clave:
+ mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:"tortas,cakes,slices,recetas,chocolate,pasteleria".
+
+Encabezado: para el encabezado del h1 utilicé el texto “Mi banda de rock”
+
+
+<!-- ETIQUETAS SEO -->
+	<meta name="description" content="sitio que con contenido de pasteleria japonesa">
+	<meta name="keyword" content="tortas,cakes,slices,recetas,chocolate,pasteleria">
