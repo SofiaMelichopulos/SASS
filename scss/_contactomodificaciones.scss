@@ -16,4 +16,11 @@ h1
   
 .titulo3  {
   display: none; }
+@mixin sizes($width, $height: $width) {
+  height: $height;
+  width: $width;
+}
 
+.foto {
+  @include sizes(200px);
+}

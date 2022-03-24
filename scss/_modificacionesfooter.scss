@@ -1,6 +1,14 @@
-.footer { display: flex;
+@mixing footer ($display,$justify)
 
-     justify-content: flex-end;
-     margin-top: 5px;
-   }
+{display: $display;
 
+justify-content: $justify;
+
+ margin-top: 5px;
+
+}
+.footer {
+
+@include footer (flex: flex, flex-end)
+
+ }
