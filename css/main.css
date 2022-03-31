@@ -38,7 +38,33 @@ h1 {
   color: grey;
   background-color: transparent; }
 
+  .titulomedio { display: grid;
+  justify-content: center;
+
+}
+.imagencontacto {
+width: 45%;
+
+margin-right: 10px;
+margin-top: 5px;
+
+}
+
+.modificarubicacion { 
+
+display: flex;
+flex-direction: row; 
+justify-content: center;
+
+}
+
 * {
   font-family: 'League Gothic', sans-serif;
   font-family: 'Oswald', sans-serif;
-  font-family: 'Rubik', sans-serif; }
+  font-family: 'Rubik', sans-serif; 
+  }
+
+@media only screen and (max-width: 600px) { 
+  .imagencontacto { display: none;
+   }
+   }
