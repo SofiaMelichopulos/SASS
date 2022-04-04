@@ -75,4 +75,10 @@ width: 50%;
  { 
   .imagencontacto { display: none;
    }
+   
+.modificarubicacion {
+  display: grid;
+justify-content: center;
+}
+
    }
